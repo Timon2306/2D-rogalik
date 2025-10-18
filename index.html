@@ -3116,7 +3116,7 @@
                 
                 // Учитываем скорость игры для спавна
                 const gameSpeedMultiplier = getSpeedMultiplier();
-                const baseSpawnInterval = Math.max(90 - wave * 2, 30);
+                const baseSpawnInterval = Math.max(45 - wave * 2, 10);
                 const spawnInterval = Math.max(1, Math.floor(baseSpawnInterval / gameSpeedMultiplier));
                 
                 // ЗАЩИТА ОТ БЕСКОНЕЧНЫХ ЦИКЛОВ
